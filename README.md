@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shashwat</h1>
-<h3 align="center">Data + Dev meets AI — I build impactful, intelligent systems.</h3>
+<h3 align="center">AI Engineer, Data Scientist, Backend Developer, ML Engineer build impactful, intelligent systems.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kss004&label=Profile%20views&color=0e75b6&style=flat" alt="kss004" /> </p>
 
