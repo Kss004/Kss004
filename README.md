@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Shashwat</h1>
-<h3 align="center">I'm a fourth year engineering student currently based out of Jaipur/Delhi. Im a AI Engineer, Data Scientist, Backend Developer, ML Engineer who loved building impactful, intelligent systems that have an impact and try to solve real wordl problems.</h3>
+<h3 align="center">I'm a fourth year engineering student currently based out of Jaipur/Delhi. Im a AI Engineer, Data Scientist, Backend Developer, ML Engineer who loves building impactful, intelligent systems that have an impact and try to solve real wordl problems.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kss004&label=Profile%20views&color=0e75b6&style=flat" alt="kss004" /> </p>
 
