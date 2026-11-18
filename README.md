@@ -1,147 +1,40 @@
-<h1 align="center">Hi, I'm Shashwat 👋</h1>
+# Kumar Shashwat Sandilya
 
-<p align="center">
-  <b>AI Engineer • ML Engineer • Backend Developer</b><br>
-  Building production-ready AI systems that solve real-world problems
-</p>
+**AI Engineer: agent systems, LLM infrastructure, evals**
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kss004&label=Profile%20views&color=0e75b6&style=flat" />
-</p>
+I build the layer between language models and real systems: tool-calling agents, MCP infrastructure, structured outputs, voice agents, and the evals and guardrails that keep them trustworthy in production.
+
+Delhi, India · open to relocation · [kss04.me](https://kss04.me) · [LinkedIn](https://www.linkedin.com/in/kumar-shashwat-sandilya-b75332218/)
 
 ---
 
-## 🚀 About Me
+### Selected work
 
-- 🎓 Final-year Engineering Student (Jaipur/Delhi)
-- 🤖 Focused on **Generative AI, RAG systems, and ML engineering**
-- ⚡ Built multiple **end-to-end AI systems (not just models)**
-- 🧠 Strong in **ML, Backend Systems, and Data Pipelines**
+| Project | What it is | Engineering highlights |
+| --- | --- | --- |
+| **[Harbor](https://github.com/Kss004/KubernetesBasedMCPGateway)** | A team MCP gateway on Kubernetes ([live](https://app.169-58-78-14.sslip.io)) | Aggregates 4 upstream MCP servers behind one `/mcp` endpoint, with namespaced tools to avoid name collisions · upstream credentials stay inside the gateway · per-user API keys, role checks and a full audit log · NetworkPolicies and a written threat model · the same Helm charts on kind and k3s |
+| **[Hotseat](https://github.com/Kss004/Hotseat)** | AI role-play coach for high-stakes meetings ([live](https://hotseat-lac.vercel.app)) | Multi-provider LLM router with timeouts and failover · Zod-validated structured outputs with a repair retry that feeds back the validation error · SSE streaming that never switches provider mid-reply · per-call latency and status logging · web content treated as untrusted input |
+| **[Codex Usage Analyzer](https://github.com/Kss004/Codex-Usage-Analyzer)** | Finds where Codex saves engineering time in a codebase ([live](https://codex-usage-analyzer.vercel.app)) | Top 10% of ~10,000 at the OpenAI + AI Builders India Hackathon · 50 unit tests plus a property-based live LLM eval, which caught a model ordering bug that is now fixed deterministically |
+| **[AEO Diagnostic](https://github.com/Kss004/AEO_Tool)** | Measures brand visibility across 5 LLMs | Parallel query × model fan-out with per-cell fallback, 429 backoff and timeouts · structured extraction with a deterministic fallback · tested in CI |
 
----
+### Experience
 
-## 🧠 Featured Projects (Proof of Work)
+- **HyrGPT, Generative AI:** multi-agent interview scheduling, async phone screening, and voice agents over SIP telephony (LiveKit, Plivo, Telnyx).
+- **KPMG:** a meeting-intelligence bot that processed enterprise-scale meeting volume.
+- **Leetlingo, Co-founder:** an AI interview-prep platform.
 
-### 🔹 AI Resume Analysis & Alignment System
+### How I build
 
-- Semantic matching between **Resume ↔ Job Description using embeddings + RAG**
-- Suggests optimized resume templates from vector DB
-- Stack: `FastAPI` `MongoDB` `OpenAI` `ChromaDB`
+- **Evals before features:** if a behaviour matters, it has a test case and a pass rate.
+- **Treat every model output and every fetched document as untrusted input.**
+- **Design for failure:** timeouts, fallbacks and budgets on every external call.
+- **Trace everything:** a bug you can't find in a trace is a bug you'll ship twice.
 
-👉 Impact: Moves beyond keyword matching → **true semantic hiring intelligence**
+### Stack
 
----
+**Languages:** Python, TypeScript
+**AI:** OpenAI, Anthropic, Gemini and Groq APIs · Vercel AI SDK · LangGraph · MCP · pgvector
+**Backend:** FastAPI, asyncio, Pydantic · Next.js, Node · Postgres, Redis
+**Infra:** Docker, Kubernetes, Helm, GCP, Vercel
 
-### 🔹 AI Voice Agent (Multilingual)
-
-- Real-time **speech-to-speech AI system**
-- Supports English + Hindi + multilingual pipelines
-- Stack: `STT` `LLM` `TTS` `FastAPI`
-
-👉 Impact: Automates **recruitment screening / customer interaction**
-
----
-
-### 🔹 AI Course Content Generator
-
-- Scrapes + structures content → generates **Udemy-style courses**
-- Uses vector search + LLM for content synthesis
-
-👉 Impact: Turns raw web data → **structured learning systems**
-
----
-
-### 🔹 Brain Tumor Detection (97% Accuracy)
-
-- ML-based medical imaging system
-- Built using `OpenCV + ML + Streamlit`
-
-👉 Impact: Applied AI in **healthcare domain**
-
----
-
-## 🌐 Connect With Me
-
-<p>
-  <a href="https://www.linkedin.com/in/kumar-shashwat-sandilya-b75332218/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge" />
-  </a>
-  <a href="https://instagram.com/shashwatsandilya" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-black?logo=instagram&style=for-the-badge" />
-  </a>
-</p>
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-
-<p>
-<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/c-1.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/c.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="40"/>
-</p>
-
-### Frameworks & Tools
-
-<p>
-<img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/docker.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/mysql-logo.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/google-cloud-1.svg" width="40"/>
-</p>
-
-### AI / ML
-
-<p>
-<img src="https://cdn.worldvectorlogo.com/logos/pytorch-2.svg" width="40"/>
-<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="40"/>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=kss004&show_icons=true&theme=tokyonight" />
-</td>
-<td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=kss004&layout=compact&theme=tokyonight" />
-</td>
-</tr>
-</table>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=kss004&theme=tokyonight" />
-</p>
-
----
-
-## 🏆 Achievements
-
-- 🥇 Cleared **Smart India Hackathon Round 1** (Top 500+ teams)
-- 📈 Built multiple production-grade AI systems
-- 🧪 Hands-on with **real datasets + real-world problems**
-
----
-
-## 🎯 What I Bring
-
-- End-to-end AI system building (**not just notebooks**)
-- Strong backend + ML integration skills
-- Ability to ship fast + iterate
-
----
-
-## 📌 Focus
-
-> Building scalable, real-world AI systems — not just experiments.
-
----
+**Education:** B.Tech, Computer & Communication Engineering, Manipal University Jaipur · BSc, Data Science, IIT Madras
