@@ -1,4 +1,4 @@
-# Kumar Shashwat Sandilya
+# Kumar Shashwat
 
 **AI Engineer: agent systems, LLM infrastructure, evals**
 
