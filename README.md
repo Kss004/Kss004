@@ -4,7 +4,7 @@
 
 I build the layer between language models and real systems: tool-calling agents, MCP infrastructure, structured outputs, voice agents, and the evals and guardrails that keep them trustworthy in production.
 
-Delhi, India · open to relocation · [kss04.me](https://kss04.me) · [LinkedIn](https://www.linkedin.com/in/kumar-shashwat-sandilya-b75332218/)
+Delhi, India · [kss04.me](https://kss04.me) · [LinkedIn](https://www.linkedin.com/in/kumar-shashwat-sandilya-b75332218/)
 
 ---
 
